@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* These are the elements contained in the header */
+
+    /* This styling applies to the entire header */
+    /* Add padding, a font, background color and a font color */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+    /* This applies to the main title */
+    /* Allow the main title to display inline and set the font to 48 pixels */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+    /* This applies to "seo" in Horiseon */
+    /* It changes the color of the font */
+.seo {
+    color: #d9dcd6;
+}
+
+    /* This applies to the div tag in the header (the navigation bar) */
+    /* Padding is added to the top, margin is added to the right, the text is sent to the right and the font and font size is specified */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+    /* This applies to the unordered list in the header */
+    /* list style type is set to none */
+header div ul {
+    list-style-type: none;
+}
+
+    /* This applies to the list items in the unordered list located in the header */
+    /* dispay is set to inline block and margin left is added */
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+    /* This applies to all links */
+    /* The color is set to white and there is no text decoration */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* These are the elements in the body */
+    /* This applies to the entire body */
+    /* The body has a specified background color */
+body {
+    background-color: #d9dcd6;
+}
+    /* This applies to all paragraph tags */
+    /* The font size is set to 16 pixels */
+p {
+    font-size: 16px;
+}
+    /* This applies only to the hero id */
+    /* The hero id is used to make a background image at the top of the body */
+    /* There is a specified height, width, the background size is set to cover and the positon is set to center */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+    /* This applies to the entire content class */
+    /* The content class has a width of 75%, displayed inline with a specified left margin */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+    /* This applies to the divisions located in the content class */
+    /* Each division has a bottom margin, padding, set height of 300px, a font, a background color and font color*/
+.content div{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+    /* This applies to the first and third image in the content class */
+    /* The image is floated to the left with a margin on the right */
+
+.float-left {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+    /* This applies to the second image in the content class */
+    /* The image is floated to the right with a margin on the left */
+.float-right {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+    /* This applies to the h2 tags in the content class */
+    /* A margin on the bottom is added and the font size is set to 36pixels */
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+    /* This applies to the benefits class (The side bar) */
+    /* Margin right, padding, the previous floats are cleared, floated to the right, a width and height are specified, a font is set and a background color */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+    /* This applies to the divsions of the benefits class (the 3 benefits) */
+    /* A margin is added to the bottom and a font color is set */
+.benefits div{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+    /* This applies to the headings in the benefits class */
+    /* A margin is added to the bottom and text align is set to center */
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+    /* This applies to the images in the bennefits class */
+    /* display is set to block, margin set to 10px; auto and a max width of 150px; */
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This is the footer */
+    /* This applies to the entire footer */
+    /* Padding is added, floats are cleared, a font family is set and the text is centered */
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+    /* This applies to the h2 tag in the footer */
+    /* The font size is set to 20px; */
+footer h2 {
+    font-size: 20px;
+}
