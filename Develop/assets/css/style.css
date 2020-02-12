@@ -1,3 +1,6 @@
+/* This applies to all elements in the html file */
+    /* Box sizing is now border box instead of content box */
+    /* Padding and Margin are both set to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
